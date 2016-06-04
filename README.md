@@ -78,14 +78,14 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
     
     $ kotlinc <file>.kt -d <file>.jar
     
-    $ java -classpath <file>.jar <File>Kt
+    $ kotlin  -classpath <file>.jar <File>Kt
    
     Note:
     - If you are developing a library to be used by other Kotlin applications,
       you can produce the .jar file without including the Kotlin into it
     - Since binaries compiled this way depend on the Kotlin runtime you should make sure
       the latter is present in the classpath whenever your compiled library is used
-    - Run binaries produced by the Kotlin compiler
+    - You can also use the 'kotlin' script to run binaries produced by the Kotlin compiler
     - <File>Kt is the main class name that the Kotlin compiler generates for the file named <file>.kt
     
 
