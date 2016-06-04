@@ -68,6 +68,10 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
     
     $ java -jar <file>.jar
     
+    Note:
+    - -d option indicates output name and may be either a directory name for a class or a .jar file name.
+    - -include-runtime option makes the resulting .jar file self-contained and runnable
+      by the Kotlin runtime library in it.
 
     
     Compile libraries
