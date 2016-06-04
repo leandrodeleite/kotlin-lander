@@ -9,3 +9,11 @@ fun main(args: Array<String>) {
     })
 }
 
+/*
+
+    'val' denotes a declaration of a read-only local variable
+    that is assigned an pattern matching expression
+
+    control-flow #when-expression
+
+*/
