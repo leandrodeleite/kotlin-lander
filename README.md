@@ -3,6 +3,12 @@
 # Kotlin Programming Language
 https://kotlinlang.org
 
+---
+
+# Try Kotlin
+https://try.kotlinlang.org
+
+
     ## Hello, world!
 
     - helloSimplestVersion.kt
@@ -15,7 +21,4 @@ https://kotlinlang.org
 
     - helloObjectOriented.kt    ->  An Object-oriented hello
 
-
-# Try Kotlin
-https:://try.kotlinlang.org
 
