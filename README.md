@@ -32,3 +32,10 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
     Type :help for help, :quit for quit
     >>>
 
+    >>> :help
+    Available commands:
+    :help                   show this help
+    :quit                   exit the interpreter
+    :dump bytecode          dump classes to terminal
+    :load <file>            load script from specified file
+
