@@ -9,3 +9,7 @@ fun main(args: Array<String>) {
 
 // error: expression 'size' of type 'Int' cannot be invoked as a function. The function 'invoke()' is not found
 
+/*
+    String interpolation to cur down ceremony
+
+*/
