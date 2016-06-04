@@ -89,3 +89,9 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
     - <File>Kt is the main class name that the Kotlin compiler generates for the file named <file>.kt
     
 
+    
+    Compiler Options
+    
+    $ kotlin -help
+    
+
