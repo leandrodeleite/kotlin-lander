@@ -26,4 +26,9 @@ https://try.kotlinlang.org
 # Working with the Command Line Compiler
 htts://kotlinlang.org/docs/tutorials/command-line.html
 
+## REPL
+
+    Kotlin interactive shell
+    Type :help for help, :quit for quit
+    >>>
 
