@@ -47,4 +47,9 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
 
     $ kotlinc -script <file.kts> <arg>
 
+    Note:
+    - A script is a Kotlin source file '.kts' with top level executable code
+    - To run a script, pass the '-script' option to the compiler with the corresponding script file
+              -script     evaluate the script file
+
 
