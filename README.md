@@ -43,3 +43,8 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
     - Run the compiler without parameters to have an interactive shell
     - Type any valid Kotlin code
 
+## Kotlin as a Scripting Language
+
+    $ kotlinc -script <file.kts> <arg>
+
+
