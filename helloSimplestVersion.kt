@@ -2,17 +2,18 @@
 package hello
 
 fun main(args: Array<String>) {
-    println("Hello World!")
+    println("Hello, world!")
 }
 
 /*
     Optional package header
 
-    Package-level function,
-    which returns Unit and
-    takes an Array of String as a parameter
+    We declare a
+    Package-level function 'main',
+    which returns 'Unit' and
+    takes an 'Array' of 'String's as a parameter
 
-    Have you noticed?
+    Have you noticed? / Note that
     Semicolons are optional
 
 */
