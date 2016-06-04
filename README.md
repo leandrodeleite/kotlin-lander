@@ -39,3 +39,8 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
     :dump bytecode          dump classes to terminal
     :load <file>            load script from specified file
 
+    Note:
+    - Run the compiler without parameters to have an interactive shell
+    - Type any valid Kotlin code
+
+
