@@ -56,6 +56,6 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
 
 # Scripts
 
-    - scriptListFolders.kts
+    - scriptListFolders.kts     ->  List folders from a <path> from the command line
 
 
