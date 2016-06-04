@@ -7,3 +7,5 @@ fun main(args: Array<String>) {
     println("Hello, ${args[0]}!")
 }
 
+// error: expression 'size' of type 'Int' cannot be invoked as a function. The function 'invoke()' is not found
+
