@@ -12,6 +12,9 @@ fun main(args: Array<String>) {
 //          ^
 
 /*
-    String interpolation to cur down ceremony
+    String interpolation to cut down ceremony
+
+    string templates;   basic-types #strings
+    array access;       basic-types #arrays
 
 */
