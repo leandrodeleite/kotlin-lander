@@ -52,4 +52,10 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
     - To run a script, pass the '-script' option to the compiler with the corresponding script file
               -script     evaluate the script file
 
+---
+
+# Scripts
+
+    - scriptListFolders.kts
+
 
