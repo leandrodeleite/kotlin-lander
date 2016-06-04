@@ -58,4 +58,21 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
 
     - scriptListFolders.kts     ->  List folders from a <path> from the command line
 
+---
+
+## Kotlin Compiler
+
+    Compile applications
+    
+    $ kotlinc <file>.kt -include-runtime -d <file>.jar
+    
+    $ java -jar <file>.jar
+
+
+    Compile libraries
+    
+    $ kotlinc <file>.kt -d <file>.jar
+    
+    $ java -classpath <file>.jar <File>Kt
+    
 
