@@ -10,10 +10,12 @@ fun main(args: Array<String>) {
 }
 
 /*
-    Class with a primary contructor and
+    Here we have a
+    'class' with a primary contructor and
     a member function
 
-    Note there's no
+    Note that there's no
     'new' keyword used to create an object
 
+    classes #classes
 */
