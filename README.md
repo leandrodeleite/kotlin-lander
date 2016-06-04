@@ -3,16 +3,17 @@
 # Kotlin Programming Language
 https://kotlinlang.org
 
+    ## Hello, world!
 
     - helloSimplestVersion.kt
 
-    - helloNameReading.kt
+    - helloNameReading.kt       ->  Reading a name from the command line
 
-    - helloManyNamesReading.kt
+    - helloManyNamesReading.kt  ->  Reading many names from the command line
 
-    - helloMultiLanguage.kt
+    - helloMultiLanguage.kt     ->  A Multi-language Hello
 
-    - helloObjectOriented.kt
+    - helloObjectOriented.kt    ->  An Object-oriented hello
 
 
 # Try Kotlin
