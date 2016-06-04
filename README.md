@@ -26,9 +26,9 @@ https://try.kotlinlang.org
 # Working with the Command Line Compiler
 htts://kotlinlang.org/docs/tutorials/command-line.html
 
-## REPL
+## Kotlin Interactive Shell/REPL
 
-    Kotlin interactive shell
+    Welcome to Kotlin version X... (JRE X...)
     Type :help for help, :quit for quit
     >>>
 
@@ -42,5 +42,4 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
     Note:
     - Run the compiler without parameters to have an interactive shell
     - Type any valid Kotlin code
-
 
