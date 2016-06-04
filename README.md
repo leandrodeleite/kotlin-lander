@@ -11,7 +11,7 @@ https://try.kotlinlang.org
 
     ## Hello, world!
 
-    - helloSimplestVersion.kt
+    - helloSimplestVersion.kt   ->  Optional package header and package-level function 'main'
 
     - helloNameReading.kt       ->  Reading a name from the command line
 
