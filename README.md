@@ -101,4 +101,11 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
 
 # Publications
 
+---
+## Kotlin Programming - Next Level Java Development
+by Peter Sommerhoff
+Udemy
+
+3.5 hours
+
 
