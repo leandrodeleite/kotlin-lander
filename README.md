@@ -108,4 +108,12 @@ Udemy
 
 3.5 hours
 
+---
+## Kotlin for Java Developers
+by Dmitri Nesteruk
+Udemy
+
+3.0 hours
+
+---
 
