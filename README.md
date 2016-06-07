@@ -104,14 +104,14 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
 ---
 ## Kotlin Programming - Next Level Java Development
 by Peter Sommerhoff
-Udemy
+Udemy - www.udemy.com/kotlin-course/
 
 3.5 hours
 
 ---
 ## Kotlin for Java Developers
 by Dmitri Nesteruk
-Udemy
+Udemy - www.udemy.com/kotlin-java/
 
 3.0 hours
 
