@@ -35,6 +35,11 @@ https://try.kotlinlang.org
 
 ---
 
+## Getting Started with Kotlin in 2 minutes
+https://www.youtube.com/watch?v=viiDaLpPfN4
+
+---
+
 # Working with the Command Line Compiler
 htts://kotlinlang.org/docs/tutorials/command-line.html
 
