@@ -5,6 +5,11 @@ https://kotlinlang.org
 
 ---
 
+# Full Kotlin Reference
+https://kotlinlang.org/kotlin-docs.pdf
+
+---
+
 # Try Kotlin
 https://try.kotlinlang.org
 
