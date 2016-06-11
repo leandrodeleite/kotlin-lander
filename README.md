@@ -8,6 +8,11 @@ https://kotlinlang.org
 # Full Kotlin Reference
 https://kotlinlang.org/kotlin-docs.pdf
 
+
+# Kotlin Docs/Reference
+https://kotlinlang.org/docs/reference/
+
+
 ---
 
 # Try Kotlin
