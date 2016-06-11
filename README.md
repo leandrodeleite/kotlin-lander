@@ -6,7 +6,7 @@ https://kotlinlang.org
 ---
 
 # Full Kotlin Reference
-https://kotlinlang.org/kotlin-docs.pdf
+https://kotlinlang.org/docs/kotlin-docs.pdf
 
 
 # Kotlin Docs/Reference
