@@ -7,13 +7,15 @@ fun main(args: Array<String>) {
     val even = numbers.filter { it % 2 == 0 }
 
     val odd = numbers.filter { it % 2 == 1 }
- 
 
     println("Even numbers are: $even")
     println("Odd numbers are:  $odd")
 
     println("Even numbers are: ${even}")
     println("Odd numbers are:  ${odd}")
+
+    println("Even numbers are: ${ numbers.filter { it % 2 == 0 } }")
+    println("Odd numbers are:  ${ numbers.filter { it % 2 == 1 } }")
 
 }
 
