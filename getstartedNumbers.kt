@@ -6,5 +6,7 @@ fun main(args: Array<String>) {
 
     println(numbers.filter { it % 2 == 0 } )
 
+    println(numbers.filter { it % 2 == 1 } )
+
 }
 
