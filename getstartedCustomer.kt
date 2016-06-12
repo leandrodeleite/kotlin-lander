@@ -1,5 +1,6 @@
 
-    class Customer(val name: String, val email: String) //  Customer@1234abcd
+//   class Customer(val name: String, val email: String) //  Customer@1234abcd
+data class Customer(val name: String, val email: String) //  Customer("..,..")
 
 fun main(args: Array<String>) {
 
