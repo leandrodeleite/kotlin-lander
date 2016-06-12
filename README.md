@@ -38,6 +38,12 @@ https://try.kotlinlang.org
 ## Getting Started with Kotlin in 2 minutes
 https://www.youtube.com/watch?v=viiDaLpPfN4
 
+    - getstartedCities.kt       ->  listOf(), Pair(), for(), interpolation
+
+    - getstartedNumbers.kt      ->  arrayListOf(), .filter, interpolation
+
+    - getstartedCustomer.kt     ->  class, data class
+
 ---
 
 # Working with the Command Line Compiler
