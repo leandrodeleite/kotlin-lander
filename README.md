@@ -141,7 +141,7 @@ Udemy - www.udemy.com/kotlin-java/
 
 ## Kotlin Tutorials
 by Otfried Cheong 
-CS109 - http://otfried.org/courses/kotlin/tutotial.html 
+CS109 - http://otfried.org/courses/kotlin/tutorial.html 
 repos - https://github.com/otfried/kotlin-tutorial 
 
 ---
