@@ -80,7 +80,8 @@ htts://kotlinlang.org/docs/tutorials/command-line.html
 # Scripts
 
     - scriptListFolders.kts     ->  List folders from a <path> from the command line
-
+    
+    - scriptArgs.kts            ->  List <arg1> <arg2> <arg3>...
 ---
 
 ## Kotlin Compiler
