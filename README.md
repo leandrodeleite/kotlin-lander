@@ -46,6 +46,13 @@ https://www.youtube.com/watch?v=viiDaLpPfN4
 
 ---
 
+## Kotlin Koans
+by Svetlana Isakova
+
+https://kotlinlang.org/docs/tutorials/koans.html
+
+---
+
 # Working with the Command Line Compiler
 htts://kotlinlang.org/docs/tutorials/command-line.html
 
