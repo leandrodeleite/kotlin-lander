@@ -14,3 +14,27 @@
     println( f(3 , 9) )
 
 
+/*
+    The body of the function is either
+    a single expression, or
+    it consists of several statements 
+    surrounded by curly braces.
+
+    Indentation has no meaning to Kotlin compiler
+
+    Have to write
+    'name: type' of each parameter for a Kotlin function
+    Result type is actually optional, guessed by the compiler
+    but makes easier to read,
+    and allows compiler to find errors early
+*/
+
+fun g(a: Int, b:Int) : Int {
+    val m = a*a - b*b
+    val s = a-b
+    return m/s
+}
+
+    println( g(10,1) )
+
+
