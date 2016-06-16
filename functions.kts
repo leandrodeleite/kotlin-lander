@@ -37,4 +37,25 @@ fun g(a: Int, b:Int) : Int {
 
     println( g(10,1) )
 
+/*
+    Every function returns a value
+    Functions that does not need return a value
+    will return the value Unit (the only object of the type Unit)
+*/
+
+fun greetU(name: String) : Unit {
+    println("Hello " + name)
+}
+
+greetU("Unit!")
+
+
+// Or written like
+
+fun greetNo(name: String) {
+    println("Hello " + name)
+}
+
+greetNo("No!")
+
 
