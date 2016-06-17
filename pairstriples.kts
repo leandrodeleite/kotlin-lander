@@ -1,4 +1,6 @@
 
+// Pair
+//
 var a = Pair(3, 5)
 
 println(a)
@@ -30,4 +32,16 @@ fun unpacker(b: Pair<Int, Double>) {
 }
 
 unpacker(b)
+
+
+// Triple
+//
+
+fun unpackYYMMDD(n: Int): Triple<Int, Int, Int> {
+    return Triple(n / 10000, (n / 100) % 100, n % 100)
+}
+
+println( unpackYYMMDD(20170315) )
+
+
 
