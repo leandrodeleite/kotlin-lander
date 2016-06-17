@@ -54,9 +54,17 @@ println(t.second)
 println(t.third)
 
 
+// common function structure
+fun tri(BID: Triple<Int, Int, Double>) {
+    val (B, I , D) = BID
+    println("$BID consists of $B, $I, $D")
+}
 
+val ple = Triple(1, 1000, 1.1)
 
+tri(ple)
 
+tri(Triple(10, 11, 12.5))
 
 
 
