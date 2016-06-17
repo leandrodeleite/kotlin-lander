@@ -1,4 +1,23 @@
 
+// command-line arguments
+// val size = args[0].toInt()
+// triangle(size)
+
+// list many arguments // spaces doesn't matter
+for (s in args)
+    println(s)
+// if args is a list of length zero, for loop does nothing
+
+// fail safe 
+if (args.size == 1) {
+    val size = args[0].toInt()
+    triangle(size)
+} else {
+    println("Usage: ... script.kts <size>")
+}
+
+
+
 // triangle
 
 fun triangle(n: Int) {
@@ -9,20 +28,9 @@ fun triangle(n: Int) {
 }
 
 
+
 // fixed size
 val fixedsize = 5
 triangle(fixedsize)
-
-
-// command-line arguments
-val size = args[0].toInt()
-triangle(size)
-
-
-// list many arguments // spaces doesn't matter
-for (s in args)
-    println(s)
-
-
 
 
