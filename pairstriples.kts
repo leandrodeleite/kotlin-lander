@@ -35,7 +35,7 @@ unpacker(b)
 
 
 // Triple
-//
+// often used to return more than one value from a function
 
 fun unpackYYMMDD(n: Int): Triple<Int, Int, Int> {
     return Triple(n / 10000, (n / 100) % 100, n % 100)
@@ -52,5 +52,11 @@ println(t)
 println(t.first)
 println(t.second)
 println(t.third)
+
+
+
+
+
+
 
 
