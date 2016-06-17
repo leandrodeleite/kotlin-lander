@@ -43,5 +43,14 @@ fun unpackYYMMDD(n: Int): Triple<Int, Int, Int> {
 
 println( unpackYYMMDD(20170315) )
 
+val (y, m, d) = unpackYYMMDD(20170315)
+// println(y + m + d)
+// error: ...
+
+val t = unpackYYMMDD(20001231)
+println(t)
+println(t.first)
+println(t.second)
+println(t.third)
 
 
