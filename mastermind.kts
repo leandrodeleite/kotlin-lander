@@ -11,7 +11,9 @@ fun createSecret(): String {
 
 fun showHistory () {}
 
-fun getGuess() {}
+// read a guess from the terminal
+fun getGuess(): String {
+}
 
 fun evaluateGuess() {}
 
