@@ -2,6 +2,14 @@
 // Mastermind game
 //
 
+fun createSecret() {}
+
+fun showHistory () {}
+
+fun getGuess() {}
+
+fun evaluateGuess() {}
+
 
 // main game
 fun main() {
