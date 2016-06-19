@@ -5,6 +5,15 @@
 val MaxNumGuesses = 10
 val random = java.utils.Random()
 
+//
+fun readString(prompt: String?): String {
+    if prompt != null)
+        print(prompt)
+    System.out.flush()
+    return readLine() ?: ""
+}
+
+
 // Create secret: four distinct letters from A-F.
 fun createSecret(): String {
 }
