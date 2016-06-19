@@ -17,6 +17,14 @@ fun main() {
     println("Four distinct letters from A - F.")
     println("You haba $MaxNumGuesses guesses to find it.")
 
+    while(true) {
+        showHistory(history, current, secret)
+        if (current == MaxNumGuesses) {
+            println("My secreta was $secret, you failed to find it in $current guesses!")
+            return
+        }
+    }
+
   
 }
 
