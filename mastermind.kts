@@ -16,7 +16,17 @@ fun readString(prompt: String?): String {
 
 // Create secret: four distinct letters from A-F.
 fun createSecret(): String {
+    var c = "ABCDEF"
+    var secret = ""
+    for (i in 1 .. 4) {
+        val index = random.nextInt(c.length)
+        val letter = c[index]
+        c = c.substring(0, index) + c.substring(index+1)
+        secret = secret + letter
+    }
+    return secret
 }
+
 
 // read a guess from the terminal
 fun getGuess(): String {
