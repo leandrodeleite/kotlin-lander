@@ -21,5 +21,9 @@ println(L.lastIndex)
 // List is a parameterized type
 // type of the objects stored inside the list
 
+println()
+
+for (i in L.indices)
+    println("$i: ${L[i]}")
 
 
