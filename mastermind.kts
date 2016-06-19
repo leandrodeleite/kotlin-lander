@@ -9,8 +9,6 @@ val random = java.utils.Random()
 fun createSecret(): String {
 }
 
-fun showHistory () {}
-
 // read a guess from the terminal
 fun getGuess(): String {
 }
@@ -20,6 +18,11 @@ fun getGuess(): String {
 // the wrong position.
 fun evaluateGuess(secret: String, guess: String,) Pair<Int, Int> {
 }
+
+// Show history of guessing
+fun showHistory (h: Array<String>, current:Int, secret: String) {
+}
+
 
 
 // main game
