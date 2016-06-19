@@ -15,7 +15,11 @@ fun showHistory () {}
 fun getGuess(): String {
 }
 
-fun evaluateGuess() {}
+// Compute (pos, let) where pos is the number of correct letters in
+// the correct position, and let is the number of correct letters in
+// the wrong position.
+fun evaluateGuess(secret: String, guess: String,) Pair<Int, Int> {
+}
 
 
 // main game
