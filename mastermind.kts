@@ -27,13 +27,30 @@ fun createSecret(): String {
     return secret
 }
 
+//Check if guess is legal: Four distinct letters from A-F.
+// Returns pair (ok : Boolean, message : String)
+fun checkGuess(guess: String): Pair<Boolean, String> {
+    if (guess.length != 4) {
+        return Pair(false, "Your guess must have four letters")
+    for (i in 0 until 4) {
+        val letter = guess[i]
+        if (letter !in "ABCDEF")
+            return Pair(false, "You can only use letters A, B, C, D, E, and F.")
+        for (j in 0 until i) {
+            if (letter == guess[j])
+                return Pair(false, "All letters must be distinct.")
+        }
+    }
+    return Pair(true, "")
+}
+
 
 // read a guess from the terminal
 fun getGuess(): String {
     while (true) {
         var guess = readString("Enter your guess> ")
         guess = guess.trim().toUpperCase().replace(" ","")
-        val (ok, msg) = checkGuess(guess)
+        val (ok, msg) = checkGuess(guess) // checkGuess()
         if(ok)
             return guess
         println(msg)
