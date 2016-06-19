@@ -40,11 +40,22 @@ fun getGuess(): String {
     }
 }
 
+
 // Compute (pos, let) where pos is the number of correct letters in
 // the correct position, and let is the number of correct letters in
 // the wrong position.
 fun evaluateGuess(secret: String, guess: String,) Pair<Int, Int> {
+    val pos = 0
+    var let = 0
+    for (i in 0 until 4) {
+        if (guess[i] == secret[i])
+            pos += 1
+        else if (guess[i] in secret)
+            let += 1
+    }
+    return Pair(pos, let)
 }
+
 
 // Show history of guessing
 fun showHistory (h: Array<String>, current:Int, secret: String) {
