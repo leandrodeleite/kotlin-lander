@@ -2,9 +2,6 @@
 // Mastermind game
 //
 
-fun createSecret() {
-}
-
 
 // main game
 fun main() {
@@ -23,8 +20,17 @@ fun main() {
             println("My secreta was $secret, you failed to find it in $current guesses!")
             return
         }
-    }
 
+        val guess = getGuess()
+        history[current] = guess
+        current += 1
+        val pos = evaluateGuess(secret, guess).first
+        if (pos == 4) {
+            println("My secret was $secret, you guessed correctly in $current guesses!")
+            return
+        }
+
+    }
   
 }
 
