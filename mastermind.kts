@@ -59,6 +59,11 @@ fun evaluateGuess(secret: String, guess: String,) Pair<Int, Int> {
 
 // Show history of guessing
 fun showHistory (h: Array<String>, current:Int, secret: String) {
+    for (count in 0 until current) {
+        val guess = h[count]
+        val (pos, let) = evaluateGuess(secret, guess)
+        println("%2d: %s : %d positions, %d letters".format(count+1, guess, pos, let))
+    }
 }
 
 
