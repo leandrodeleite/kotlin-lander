@@ -5,8 +5,9 @@
 val MaxNumGuesses = 10
 val random = java.utils.Random()
 
-
-fun createSecret() {}
+// Create secret: four distinct letters from A-F.
+fun createSecret(): String {
+}
 
 fun showHistory () {}
 
