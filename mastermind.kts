@@ -2,6 +2,10 @@
 // Mastermind game
 //
 
+val MaxNumGuesses = 10
+val random = java.utils.Random()
+
+
 fun createSecret() {}
 
 fun showHistory () {}
