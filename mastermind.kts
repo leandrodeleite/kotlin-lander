@@ -34,7 +34,7 @@ fun main() {
     println("Welcome to Mastermind!")
     println("I have created a secret combination:")
     println("Four distinct letters from A - F.")
-    println("You haba $MaxNumGuesses guesses to find it.")
+    println("You have $MaxNumGuesses guesses to find it.")
 
     while(true) {
         showHistory(history, current, secret)
