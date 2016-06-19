@@ -30,6 +30,14 @@ fun createSecret(): String {
 
 // read a guess from the terminal
 fun getGuess(): String {
+    while (true) {
+        var guess = readString("Enter your guess> ")
+        guess = guess.trim().toUpperCase().replace(" ","")
+        val (ok, msg) = checkGuess(guess)
+        if(ok)
+            return guess
+        println(msg)
+    }
 }
 
 // Compute (pos, let) where pos is the number of correct letters in
